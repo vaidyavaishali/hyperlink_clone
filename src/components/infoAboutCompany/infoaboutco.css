@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Belanosima&family=IBM+Plex+Serif:wght@100&family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Belanosima&family=IBM+Plex+Serif:wght@100&family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300&family=Playfair+Display&display=swap');
+
+#info-about-co-container {
+    width: 100vw;
+    height: auto;
+    padding: 40rem 4rem 4rem 4rem;
+    text-align: justify;
+    margin-top: 20rem;
+  
+    box-sizing: border-box;
+  
+    padding-top: 45px;
+    background-color: white;
+}
+
+#info-about-co-container h3 {
+    width: 100vw;
+    height: auto;
+    text-align: justify;
+    margin-top: 0;
+    font-family: 'Alegreya', serif;
+    font-size: 3rem;
+    font-weight: 750;
+    margin-top: 45px;
+    font-family: 'Playfair Display', serif;
+}
+
+#info-about-co-container p {
+    font-size: 100%;
+    margin-top: 1%;
+    font-size: 1.4rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+@media (max-width:468px) {
+    #info-about-co-container {
+        width: 100vw;
+        height: auto;
+        padding: 15rem 4% 1% 4%;
+        text-align: justify;
+        z-index: 1;
+        margin-top: 0;
+        /* background-color: #000000db; */
+
+    }
+
+    #info-about-co-container h3 {
+        width: 100vw;
+        height: auto;
+        text-align: justify;
+        z-index: 1;
+        margin-top: 0;
+        padding-top: 4rem;
+        font-family: 'Alegreya', serif;
+        font-size: 3rem;
+        font-weight: 750;
+        font-family: 'Playfair Display', serif;
+    }
+
+    #info-about-co-container p {
+        font-size: 100%;
+        margin-top: 1%;
+        font-size: 1.4rem;
+        font-family: 'Libre Baskerville', serif;
+    }
+}
+
+
+@media (max-width:768px) {
+    #info-about-co-container {
+        width: 100vw;
+        height: auto;
+        padding: 8rem 4% 3rem 4%;
+        text-align: justify;
+        z-index: 1;
+        margin-top: 0;
+        
+        /* background-color: #0000; */
+
+    }
+
+    #info-about-co-container h3 {
+        width: 100vw;
+        height: auto;
+        text-align: justify;
+        z-index: 1;
+        margin-top: 0;
+        font-family: 'Alegreya', serif;
+        font-size: 3rem;
+        font-weight: 750;
+        font-family: 'Playfair Display', serif;
+    }
+
+    #info-about-co-container p {
+        font-size: 100%;
+        margin-top: 1%;
+        font-size: 1.7rem;
+        font-family: 'Libre Baskerville', serif;
+    }
+}
+
+/* tablets and ipad */
+@media (min-width:769px) and (max-width:1023px) {
+    #info-about-co-container {
+        width: 100vw;
+        height: auto;
+        padding: 10rem 4rem 1rem 4rem;
+        text-align: justify;
+        z-index: 1;
+        /* background-color: #0000; */
+        margin-top: 0;
+
+    }
+
+    #info-about-co-container h3 {
+        width: 100vw;
+        height: auto;
+        text-align: justify;
+        z-index: 1;
+        margin-top: 0;
+        font-family: 'Alegreya', serif;
+        font-size: 2rem;
+        font-weight: 750;
+
+        font-family: 'Playfair Display', serif;
+    }
+
+    #info-about-co-container p {
+        font-size: 100%;
+        margin-top: 1%;
+        font-size: 1.4rem;
+        font-family: 'Libre Baskerville', serif;
+    }
+}
+
+
+@media (min-width:1024px) {
+    #info-about-co-container {
+        width: 100vw;
+        height: auto;
+        box-sizing: border-box;
+        padding: 5rem 4rem 9rem 4rem;
+        text-align: justify;
+        z-index: 1;
+        margin-top: 0;
+        /* color: white; */
+        /* background-color: black; */
+
+    }
+
+    #info-about-co-container h3 {
+        width: 100vw;
+        height: auto;
+        text-align: justify;
+        z-index: 1;
+        margin-top: 0;
+        font-family: 'Alegreya', serif;
+        font-size: 3rem;
+        font-weight: 750;
+        /* font-family: 'Merriweather', serif; */
+        font-family: 'Playfair Display', serif;
+    }
+
+    #info-about-co-container p {
+        font-size: 100%;
+        margin-top: 1%;
+        font-size: 1.4rem;
+        font-family: 'Libre Baskerville', serif;
+    }
+}

@@ -1,0 +1,200 @@
+#partenership-models-container {
+    width: 100vw;
+    padding: 2% 1%;
+    margin-top: 0;
+}
+
+#partenership-models-heading-container {
+    width: 90%;
+    padding-left: 3%;
+
+}
+
+.partenership-main-title {
+    position: relative;
+    z-index: 1;
+    font-size: 4.5rem;
+    font-weight:bold;
+}
+
+.partenership-main-title::before {
+    content: "Models";
+    display: block;
+    position: absolute;
+    top: -.8em;
+    left: 12.5rem;
+    z-index: -1;
+    transform: translateX(-50%);
+    padding: 0.2em 0.5em;
+    color:transparent;
+    font-weight: bold;
+    font-size: 7rem;
+    -webkit-text-stroke: 1px rgb(243, 233, 233);  
+}
+
+
+#partenership-models-heading-container p {
+    font-size: 1.7rem;
+}
+
+#partenership-models-content-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+#partenership-models-content-container div {
+    width: 39rem;
+    /* Adjust width for larger screens */
+    padding: 2%;
+    box-sizing: border-box;
+    height: auto;
+    margin: 2% 0% 1% 0%;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#partenership-models-content-container div h4 {
+    font-size: 2.2rem;
+    margin-top: 2rem;
+}
+
+#partenership-models-content-container div p {
+    margin: 7% auto;
+    
+    font-size: 1.8rem;
+}
+
+#partenership-models-content-container div img {
+    width: 60px;
+    height: 60px;
+ 
+ 
+}
+
+
+/* Media query for tablet screens (e.g., iPad) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #partenership-models-content-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #partenership-models-content-container div {
+        width: 45%;
+        font-size: 2rem;
+    }
+
+    #partenership-models-content-container div h4 {
+        width: 100%;
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    #partenership-models-content-container div p {
+        font-size: 1.4rem;
+    }
+}
+
+/* Media query for mobile screens (e.g., phones) */
+@media only screen and (max-width: 767px) and (min-width:577px) {
+    #partenership-models-heading-container {
+        width: 100%;
+        /* Full width for headings on mobile */
+    }
+
+    #partenership-models-content-container div {
+        width: 45%;
+        /* Full width for content on mobile */
+    }
+
+    #partenership-models-content-container div p {
+        font-size: 1.9rem;
+    }
+
+    #partenership-models-content-container div h4 {
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #partenership-models-container {
+        width: 100vw;
+        padding: 2% 1%;
+        margin-top: 0;
+    }
+
+    #partenership-models-heading-container {
+        width: 100%;
+        /* Full width for headings on mobile */
+        padding-left: 3%;
+    }
+
+    #partenership-models-heading-container h1 {
+        font-size: 5rem;
+    }
+
+    #partenership-models-heading-container p {
+        font-size: 2.1rem;
+    }
+
+    #partenership-models-content-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #partenership-models-content-container div {
+        width: 45%;
+        /* Full width for content on mobile */
+        padding-left: 1rem;
+        box-sizing: border-box;
+        height: auto;
+        background-color: #fff;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #partenership-models-content-container div h4 {
+        font-size: 3rem;
+    }
+
+    #partenership-models-content-container div p {
+        text-align: justify;
+        font-size: 1.7rem;
+    }
+
+    #partenership-models-content-container div img {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 0;
+    }
+
+}
+
+@media (max-width:468px) {
+    #partenership-models-content-container div {
+        width: 100%;
+        /* Full width for content on mobile */
+        padding-left: 1rem;
+        box-sizing: border-box;
+        height: auto;
+        background-color: #fff;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

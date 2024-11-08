@@ -1,0 +1,353 @@
+#job-apply-form {
+  width: 100vw;
+  height: auto;
+  padding: 4rem;
+  box-sizing: border-box;
+  background-image: url("https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: grey; */
+  font-size: 1.4rem;
+}
+
+
+#job-apply-form form {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin: auto;
+  padding: 3rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#form-header {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+#form-header h3 {
+  font-weight: 550;
+  font-size: 3rem;
+}
+
+#form-header h5 {
+  font-size: 2rem;
+  font-family: serif;
+  margin-bottom: 4rem;
+}
+
+#position-info,
+#qualification-info,
+#work-experience {
+  margin-top: 6rem;
+}
+
+#personal-info h4,
+#position-info h4,
+#qualification-info h4,
+#work-experience-info h4 {
+  margin-left: 3.5rem;
+  font-family: serif;
+  font-weight: 550;
+  font-size: 2rem;
+
+}
+
+.fieldset {
+  width: 100%;
+  height: 10vh;
+  margin-left: 1rem;
+}
+
+#full-city-state-pinCode-fieldset input {
+  height: 100%;
+  width: 30%;
+  margin: 1.4rem;
+  border: none;
+  border-bottom: 1px solid rgb(207, 204, 204);
+  font-size: 1.8rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  outline: none;
+  background-color: transparent;
+}
+
+
+#full-name-fieldset input {
+  /* height: 8vh; */
+  height: 100%;
+  width: 48%;
+  margin: 1rem;
+  border: none;
+  border-bottom: .1rem solid rgb(207, 204, 204);
+  font-size: 1.8rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  outline: none;
+  background-color: transparent;
+
+}
+
+#full-contact-fieldset input {
+  height: 100%;
+  width: 48%;
+  margin: 1rem;
+  border: none;
+  border-bottom: 1px solid rgb(207, 204, 204);
+  font-size: 1.8rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  outline: none;
+  background-color: transparent;
+
+}
+
+#full-address-fieldset input {
+  height: 100%;
+  width: 98%;
+  margin: 1rem;
+  border: none;
+  border-bottom: .1rem solid rgb(207, 204, 204);
+  font-size: 1.8rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  outline: none;
+  background-color: transparent;
+
+}
+
+#apply-form-btn input {
+  width: 15%;
+  height: 6vh;
+  background-color: blue;
+  color: white;
+  border: navy;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem auto 0;
+}
+
+#apply-form-btn input:hover {
+  transform: scale(1.1);
+  background-color: rgb(14, 94, 14)
+}
+
+
+/*---------------------------------------- position info---------------------- */
+#position-info {
+  width: 100%;
+  height: auto;
+}
+
+.position-info-fieldset {
+  width: 100%;
+  height: 10vh;
+  margin-top: 5rem;
+  margin-left: 3.2rem;
+  /* padding-left: 3%; */
+}
+
+#position-info label {
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 550;
+
+
+}
+
+#position-info input,
+.empoyment-type-select,
+.qualification-info-fieldset input,
+.work-experience-info-fieldset input,
+.upload-cv-fieldset input {
+  width: 95%;
+  height: 8vh;
+  border: none;
+  border-bottom: 1px solid #cccc;
+  outline: none;
+  font-size: 1.8rem;
+  color: rgb(5, 5, 5);
+}
+
+#position-info input::placeholder {
+  font-size: 1.7rem;
+  color: grey;
+}
+
+/* ------------------qualification-info-------------------------------------------- */
+
+.qualification-info-fieldset,
+.qualification-work-experience-info-fieldset,
+.work-experience-info-fieldset,
+.upload-cv-fieldset {
+  width: 100%;
+  height: 10vh;
+  margin-top: 4rem;
+  margin-left: 3.2rem;
+}
+
+.upload-cv-fieldset input {
+  margin-top: 2rem;
+}
+
+.qualification-info-fieldset label,
+.work-experience-info-fieldset label,
+.upload-cv-fieldset label {
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 550;
+}
+
+.qualification-work-experience-info-fieldset #are-you-fresher-question {
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 550;
+
+}
+
+/* ------------------------------work experience info---------------- */
+
+#work-experience-info,
+#upload-cv {
+  width: 100%;
+  height: auto;
+  margin-top: 4rem;
+}
+.qualification-work-experience-info-fieldset input{
+vertical-align: middle;
+}
+
+@media screen and (max-width:767px) {
+  #full-city-state-pinCode-fieldset input {
+    height: 100%;
+    width: 100%;
+    margin: 1.4rem;
+    border: none;
+    border-bottom: 1px solid rgb(207, 204, 204);
+    font-size: 1.8rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    outline: none;
+    background-color: transparent;
+  }
+
+  #full-name-fieldset {
+    height: 14vh;
+  }
+
+  #full-name-fieldset input {
+    /* height: 8vh; */
+    height: 100%;
+    width: 100%;
+    margin: 1rem;
+    border: none;
+    border-bottom: 1px solid rgb(207, 204, 204);
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    outline: none;
+    background-color: transparent;
+
+  }
+
+  #full-contact-fieldset input {
+    height: 100%;
+    width: 100%;
+    margin: 1rem;
+    border: none;
+    border-bottom: 1px solid rgb(207, 204, 204);
+    font-size: 1.8rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    outline: none;
+    background-color: transparent;
+
+  }
+
+  #full-contact-fieldset,
+  #full-address-fieldset {
+    height: 12vh;
+  }
+
+  #full-address-fieldset {
+    height: 3vh;
+  }
+
+  #full-address-fieldset input {
+    height: 100%;
+  }
+
+  .fieldset {
+    height: 4vh;
+  }
+
+  #position-info {
+    margin-top: 25rem;
+  }
+#upload-cv{
+  width: 100%;
+  height: auto;
+  margin-top: 0rem;
+  /* background-color: red; */
+}
+.qualification-work-experience-info-fieldset{
+  height: 6vh;
+}
+.qualification-work-experience-info-fieldset input{
+  width: 1.7rem;
+}
+.position-info-fieldset, .qualification-info-fieldset{
+  height: 6vh;
+}
+.position-info-fieldset select, .qualification-info-fieldset select{
+  height: 50%;
+  margin-top: 2rem;
+}
+.interview-available{
+height: 5vh;
+/* background-color: red; */
+margin-bottom: 0;
+}
+#position-info .position-info-fieldset input[type="date"]{
+  height: 3vh;
+
+}
+input[type="date"]{
+  height: 3vh;
+}
+
+.position-info-fieldset {
+  height: 5vh;
+  /* background-color: red; */
+
+}
+#position-info
+ .position-info-fieldset input {
+  height: 70%;
+  margin-top: 3rem;
+}
+.qualification-work-experience-info-fieldset{
+  /* background-color: red; */
+  height: 5vh;
+}
+#apply-form-btn input {
+  width: 25%;
+  height: 4vh;
+  background-color: blue;
+  color: white;
+  border: navy;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem auto 0;
+}
+}

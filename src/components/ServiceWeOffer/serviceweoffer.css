@@ -1,0 +1,111 @@
+/* serviceweoffer.css */
+#service-we-offer {
+    width: 100vw;
+    padding: 1rem;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+#service-we-offer h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 4.8rem;
+    font-weight:bold;
+}
+#service-we-offer-inner-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+
+#service-we-offer-inner-div .heading {
+    width: 25%;
+    min-width: 250px;
+    height: 60vh;
+    margin: 1%;
+    padding: 1.5rem 2rem;
+
+    background-color: #fff;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+/* 
+#service-we-offer-inner-div .heading:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+} */
+
+#service-we-offer-inner-div .heading-content {
+    display: flex;
+    flex-direction: column;
+  justify-content: space-around;
+}
+#service-name-img-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#service-we-offer-inner-div .heading img {
+    width: 30px;
+    max-height: 50px;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+#service-we-offer-inner-div .heading #service-name-img-div #service-name {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0;
+}
+
+.services-divs-readmore-btn {
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    background-color: rgb(34, 34, 146);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.services-divs-readmore-btn:hover {
+    background-color: #222;
+}
+
+@media only screen and (max-width: 576px) {
+    #service-we-offer-inner-div .heading {
+        width: 90%;
+        height: auto;
+        font-size: 1.8rem;
+    }
+
+    #service-we-offer-inner-div .heading img {
+        max-height: 150px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+    #service-we-offer-inner-div .heading {
+        width: 45%;
+        font-size: 1.9rem;
+    }
+
+    #service-we-offer-inner-div .heading img {
+        max-height: 180px;
+    }
+}

@@ -1,0 +1,83 @@
+#one-job-desc-container {
+    width: 100vw;
+    height: auto;
+    padding-top: 2%;
+    /* margin-top: 5%; */
+    margin: auto;
+    box-sizing: border-box;
+    background-image: url("https://i.pinimg.com/736x/9c/ea/cf/9ceacf02efee1b949a498f0ca931e657.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3%;
+}
+
+#job-desc-inner-container {
+    width: 45%;
+    height: auto;
+    padding: 1%;
+    padding-bottom: 2%;
+    box-sizing: border-box;
+    background-color: #fff;
+    /* padding-left: 3%; */
+    margin: auto;
+    /* text-align: center; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+#job-desc-inner-container h2,
+#job-desc-inner-container h4 {
+    text-align: center;
+    line-height: 80%;
+}
+
+.job-role-desc {
+    width: 100%;
+    height: auto;
+    background-color: #ccc;
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#jd-location-experience-salery-container {
+    width: 100%;
+    text-align: left;
+    margin-top: 5%;
+    line-height: 66%;
+    margin-bottom: 5%;
+    padding-left: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#job-description {
+    padding-left: 3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 120%;
+}
+
+#job-description #jd {
+    color: rgb(16, 40, 117);
+    text-align: left;
+    font-family: serif;
+    font-weight: bold;
+
+}
+
+.salary-icon {
+    color: #706d6d;
+}
+
+#apply-btn {
+    width: 30%;
+    height: auto;
+    padding: 1%;
+    box-sizing: border-box;
+    background-color: green;
+    border: none;
+    color: white;
+    font-weight: 500;
+    margin: 4% 0 3% 35%;
+}

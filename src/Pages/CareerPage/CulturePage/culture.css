@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=IBM+Plex+Serif:wght@100&family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300&display=swap');
+
+#culture-main-container {
+    width: 86vw;
+    height: 100vh;
+    margin: auto;
+    margin-top: 2%;
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 5%;
+
+}
+
+#culture-main-container #culture-inner-containt-container {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    background-color: black;
+}
+
+#culture-main-container #culture-inner-containt-container #culture-inner-first-div {
+    width: 50%;
+    height: 90%;
+}
+
+
+#culture-main-container #culture-inner-containt-container #culture-inner-first-div h1 {
+    width: 100%;
+    padding: 10% 6% 0 5%;
+    box-sizing: border-box;
+    height: auto;
+    color: white;
+    font-size: 6rem;
+    font-weight: 750;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+}
+
+#culture-main-container #culture-inner-containt-container #culture-inner-second-div {
+    width: 50%;
+    height: 90%;
+    color: white;
+    padding: 2%;
+    transition: all 0.5s;
+}
+
+#culture-main-container #culture-inner-containt-container #culture-inner-second-div .event-name {
+    font-size: 3rem;
+    padding: 2%;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+
+#culture-main-container #culture-inner-containt-container #culture-inner-second-div #culture-inner-second--img-div {
+    width: 100%;
+    height: 100%;
+    padding: 7%;
+    margin-top: 3%;
+    padding-top: 4%;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+#culture-main-container #culture-inner-containt-container #culture-inner-second-div #culture-inner-second--img-div h5 {
+    margin-top: 3%;
+}
+
+#culture-main-container #culture-inner-containt-container #culture-inner-second-div #culture-inner-second--img-div img {
+    width: 96%;
+    margin-top: 10%;
+    margin: auto;
+    height: 98%;
+}
+
+#culture-main-container #culture-inner-containt-container #culture-inner-first-div .event-desc{
+    font-size: 2.5rem;
+    margin-left: 3rem;
+    color: white;
+}
+#static-disc{
+    font-size: 2rem;
+}
+@media only screen and (min-width:992px) and (max-width:1551px){
+    #culture-main-container {
+        width: 86vw;
+        height: 80vh;
+        margin: auto;
+        margin-top: 2z;
+        padding: 2%;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-bottom: 10rem;
+    
+    }
+    
+    #culture-main-container #culture-inner-containt-container {
+        width: 100%;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        background-color: black;
+    }
+    #culture-inner-first-div {
+        width: 100%;
+        height: 30vh;
+    }
+    #culture-inner-second-div {
+        width: 100%;
+        height: 30vh;
+    }
+    #culture-inner-second--img-div {
+        width: 100%;
+        height: 100%;
+    }
+
+    #culture-inner-second--img-div img {
+        width: 96%;
+        margin-top: 10%;
+        margin: auto;
+        height: 98%;
+    }
+}
+@media only screen and (min-width:761px) and (max-width: 991px){
+    #culture-main-container {
+        width: 100vw;
+        height: auto;
+        font-size: 2rem;
+
+    }
+
+    #culture-main-container #culture-inner-containt-container {
+        width: 100%;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #culture-inner-first-div {
+        width: 100%;
+        height: 30vh;
+    }
+    #culture-inner-second-div {
+        width: 100%;
+        height: 30vh;
+    }
+    #culture-inner-second--img-div {
+        width: 100%;
+        height: 100%;
+    }
+
+    #culture-inner-second--img-div img {
+        width: 96%;
+        margin-top: 10%;
+        margin: auto;
+        height: 98%;
+    }
+}
+@media only screen and (max-width: 760px) {
+    #culture-main-container {
+        width: 100vw;
+        height: auto;
+        font-size: 2rem;
+
+    }
+
+    #culture-main-container #culture-inner-containt-container {
+        width: 100%;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #culture-inner-first-div {
+        width: 100%;
+        height: 30vh;
+    }
+
+    #culture-inner-first-div h1 {
+        width: 100%;
+    }
+
+    #culture-inner-first-div p {
+        width: 100%;
+    }
+
+    #culture-inner-second-div {
+        width: 100%;
+        height: 60vh;
+    }
+
+    #culture-inner-second--img-div {
+        width: 100%;
+        height: 100%;
+    }
+
+    #culture-inner-second--img-div img {
+        width: 96%;
+        margin-top: 10%;
+        margin: auto;
+        height: 98%;
+    }
+    
+#culture-main-container #culture-inner-containt-container #culture-inner-first-div {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 90%;
+}
+.event-desc{
+    display: none;
+}
+#culture-main-container #culture-inner-containt-container #culture-inner-second-div {
+    width: 95%;
+    height: 90%;
+    color: white;
+    padding: 2%;
+    transition: all 0.5s;
+}
+#culture-inner-second-div{
+    width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 560px) {
+    #culture-main-container {
+        font-size: 1.7rem;
+
+    }
+    #culture-main-container #culture-inner-containt-container #culture-inner-first-div {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        height: 90%;
+    }
+    #static-disc{
+        font-size: 2rem;
+    }
+    .event-desc{
+        display: none;
+    }
+    
+    }

@@ -1,0 +1,52 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Belanosima&family=IBM+Plex+Serif:wght@100&family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300&family=Playfair+Display&family=Roboto+Serif:opsz@8..144&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  /* font-family: 'Roboto Serif', serif; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html{
+  font-size: 62.5%;
+  /* font-family: 'Roboto Serif', serif; */
+}
+
+
+/* mobile phone */
+
+@media (max-width:768px) {
+  html{
+    font-size: 37.5%;
+  }
+}
+
+@media (max-width:468px) {
+  html{
+    font-size: 31.25%;
+  }
+}
+
+/* tablets and ipad */
+@media (min-width:769px) and (max-width:1023px) {
+  html{
+    font-size: 50%;
+  }
+}
+
+
+/* desktop or laptop */
+
+@media (min-width:1024px) {
+  html{
+    font-size: 62.5%;
+  }
+}
+

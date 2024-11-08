@@ -1,0 +1,12 @@
+#contact-us{
+    width: 100vw;
+    height:auto;
+    /* background: yellow; */
+}
+#contact-us-line{
+    color: black;
+    text-align: center;
+}
+#contact-us-line #contact-us-line-headline{
+    color: black;
+}

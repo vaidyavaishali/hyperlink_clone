@@ -1,0 +1,177 @@
+#career-page-main-container {
+    width: 90vw;
+    height: auto;
+    text-align: center;
+    margin-top: 0;
+
+
+}
+
+#career-page-main-container #home-career-para {
+    text-align: end;
+    margin-top: -2%;
+    font-size: 1.7rem;
+}
+
+#home-career-para {
+    width: 100%;
+    text-align: end;
+    font-size: 3rem;
+}
+
+#career-page-main-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.2%;
+    margin-left: 3.9%;
+    width: 40%;
+}
+
+.text-color {
+    color: black;
+    text-decoration: none;
+}
+
+#are-you-fresher {
+    width: 95%;
+    height: 39vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 10px;
+    background-image: none;
+    margin-left: 6%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+#are-you-fresher #are-you-fresher-first-div {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), grey);
+    background-image: none;
+    opacity: 1;
+    color: black;
+    padding-top: 1%;
+    text-align: left;
+    position: absolute;
+    padding-top: 3%;
+    left: 0;
+}
+
+#are-you-fresher #are-you-fresher-first-div p {
+    width: 50%;
+    margin-left: 4%;
+    font-size: 1.5rem;
+    font-weight: 450%;
+    color: rgb(8, 8, 8);
+}
+
+#are-you-fresher #are-you-fresher-second-div {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100;
+    margin-left: 45%;
+    border-radius: 10px;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+#are-you-fresher #are-you-fresher-second-div img {
+    width: 120%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#apply-here-btn {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(18, 42, 119));
+    border: none;
+    width: 24%;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    font-weight: 500;
+    color: rgb(29, 2, 5);
+    font-size: 2rem;
+    border-radius: .4rem;
+    height: 6rem;
+}
+
+#apply-here-btn #apply-here-arrow {
+    margin-left: 3%;
+    font-size: 1.8rem;
+}
+
+@media (max-width:628px) {
+    #career-page-main-container {
+        width: 100vw;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #are-you-fresher {
+        width: 100%;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        box-shadow: none;
+    }
+
+    #career-page-main-container h1 {
+        color: black;
+        width: 100%;
+    }
+
+    #are-you-fresher #are-you-fresher-first-div {
+        width: 100%;
+        border-radius: 10px;
+        height: 100%;
+        opacity: 1;
+        color: black;
+        padding-top: 1%;
+        text-align: left;
+        position: none;
+        padding-top: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #are-you-fresher #are-you-fresher-first-div p {
+        width: 95%;
+        margin: 0;
+        font-size: 2.7rem;
+        text-align: center;
+        color: rgb(8, 8, 8);
+    }
+
+    #are-you-fresher-second-div {
+        display: none;
+    }
+
+    #apply-here-btn {
+        background-image: none;
+        border: none;
+        background-color: blue;
+        width: 20rem;
+        height: 6rem;
+        margin-top: 2rem;
+        box-sizing: border-box;
+        font-weight: 500;
+        color: white;
+        font-size: 110%;
+        border-radius: 4px;
+    }
+}

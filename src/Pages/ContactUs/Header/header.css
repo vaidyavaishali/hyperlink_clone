@@ -1,0 +1,74 @@
+#contact-us-header {
+    width: 100vw;
+    height: 30vh;
+    background-image: url("https://mannamediahub.com/wp-content/uploads/2019/05/page-heading-background-contact-us.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    padding-top: 3%;
+    /* background-position-y: 70%; */
+}
+#contact-us-header::before{
+    content: "";
+    background-color: rgba(5, 18, 75, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+#contact-us-header #head, #home-contact-link{
+    color:  white;
+    position: relative;
+
+   
+}
+.home{
+    text-decoration: none;
+}
+
+#contact-us-header p{
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+#contact-us-header p #contact-us-line-headline{
+   /* width: 10%; */
+   margin-left: 0;
+   text-align: start;
+   position: relative;
+   font-size: 100%;
+   color: rgb(235, 214, 214);
+   /* background-color: aqua; */
+}
+
+#home-contact-link{
+    /* width: 30%; */
+    text-align: end;
+    margin-left: 80%;
+    margin-top: 4%;
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width:991px){
+    #contact-us-header {
+        width: 100vw;
+        height: 20vh;
+        background-image: url("https://mannamediahub.com/wp-content/uploads/2019/05/page-heading-background-contact-us.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        text-align: center;
+        padding-top: 3%;
+        font-size: 2rem;
+        /* background-position-y: 70%; */
+    }
+    #contact-us-header p{
+        width: 100%;
+        font-size: 1.9rem;
+    }
+}

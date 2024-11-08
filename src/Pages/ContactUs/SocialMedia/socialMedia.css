@@ -1,0 +1,107 @@
+#social-media-main-container {
+    width: 100vw;
+    height: auto;
+    padding: 2%;
+    box-sizing: border-box;
+    margin-top: 4%;
+}
+
+#social-media-main-container p {
+    text-align: center;
+    font-size: 120%;
+}
+
+#social-media-icon {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#social-media-icon div {
+    margin: 1% 2%;
+    width: 90px;
+    height: 10vh;
+    padding: auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#social-media-icon div a img {
+    width: 80%;
+    height: 50%;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+@media screen and (min-width:991px) {
+    #social-media-icon div {
+        margin: 1% 2%;
+        width: 110px;
+        height: 15vh;
+        padding: auto;
+        box-sizing: border-box;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    
+    #social-media-icon div a img {
+        width: 80%;
+        height: 48%;
+        border-radius: 50%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width:417px) {
+    #social-media-main-container #social-media-icon{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    
+    #social-media-icon div {
+        margin: 1% 2%;
+        width: 50px;
+        height: 6vh;
+        padding: auto;
+        box-sizing: border-box;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: none;
+    }
+    
+    #social-media-icon div a img {
+        width: 80%;
+        height: 100%;
+        border-radius: 0%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+}

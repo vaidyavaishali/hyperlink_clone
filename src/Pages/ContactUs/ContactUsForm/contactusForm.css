@@ -1,0 +1,242 @@
+#contact-us-form {
+  width: 100vw;
+  height: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1.3rem;
+
+}
+
+#contact-us-form form {
+  width: 90%;
+  height: 100%;
+  background-color: white;
+  margin: auto;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  box-shadow: rgba(50, 50, 93, 0.25) 0rem .6rem 1.2rem -0.2px, rgba(0, 0, 0, 0.3) 0rem .3rem .3rem -0.3rem;
+}
+
+
+#full-name-fieldset,
+#full-contact-fieldset,
+#full-address-fieldset,
+#project-budget-fieldset,
+#message-textarea-fieldset {
+  width: 100%;
+  height: 17%;
+  margin: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+#full-file-fieldset {
+  margin-left: 2rem;
+  width: 100%;
+  height: 12vh;
+  margin: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+#project-budget-fieldset p {
+  text-align: start;
+  margin-left: 1rem;
+}
+
+#full-name-fieldset input {
+  /* height: 8vh; */
+  height: 100%;
+  width: 48%;
+  margin: 1rem;
+  border: none;
+  border-bottom: 1px solid rgb(207, 204, 204);
+  font-size: 1.9rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  outline: none;
+  background-color: transparent;
+
+}
+
+#contact-us-form form #full-contact-fieldset input {
+  height: 100%;
+  width: 31.3%;
+  margin: 1rem;
+  border: none;
+  border-bottom: 1px solid rgb(207, 204, 204);
+  font-size: 1.9rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  outline: none;
+  background-color: transparent;
+
+}
+
+#full-address-fieldset input {
+  height: 100%;
+  width: 98%;
+  margin: 1rem;
+  border: none;
+  border-bottom: .1rem solid rgb(207, 204, 204);
+  font-size: 1.9rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  outline: none;
+  background-color: transparent;
+
+}
+
+#full-address-fieldset {
+  height: 13vh;
+}
+
+#full-file-fieldset input {
+  height: 100%;
+  width: 97%;
+  border: none;
+  border-bottom: .1rem solid rgb(207, 204, 204);
+  font-size: 1.9rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  margin-left: 1rem;
+  outline: none;
+  background-color: transparent;
+}
+
+
+#message-textarea-fieldset textarea {
+  height: 100%;
+  width: 98%;
+  border: none;
+  border-bottom: .1rem solid rgb(207, 204, 204);
+  font-size: 1.9rem;
+  padding-left: 1rem;
+  text-align: left;
+  box-sizing: border-box;
+  background-color: transparent;
+  outline: none;
+}
+
+#enter-sum-fieldset {
+  width: 100%;
+  height: 14%;
+  /* margin: 1%; */
+  margin-left: 3rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 1.7rem;
+}
+
+#enter-sum-fieldset p {
+  margin-bottom: -1rem;
+  color: rgb(161, 161, 19);
+}
+
+#sum-input-fieldset {
+  width: 90%;
+  height: 10vh;
+  margin: 1rem;
+  margin-top: 0;
+  margin-left: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 1.7rem;
+}
+
+#sum-input-fieldset input {
+  width: 91%;
+  height: 100%;
+  margin: 1rem;
+  margin-left: 1rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: .1rem solid #ccc;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 1.7rem;
+
+}
+
+#send-btn-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  
+}
+
+#send-btn-div input {
+  width: 15%;
+  height: 6vh;
+  align-self: flex-end;
+  margin-top: 2rem;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  border: navy;
+  border-radius: 1rem;
+}
+
+#send-btn-div input:hover {
+  transform: scale(1.1);
+  background-color: navy;
+}
+
+#nda-para {
+  margin-top: 5%;
+}
+
+#error-para {
+  font-size: 90%;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  #full-name-fieldset,
+  #full-contact-fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #full-name-fieldset input,
+  #full-contact-fieldset input {
+    width: 100%;
+  }
+
+  #send-btn-div input {
+    width: 25%;
+    height: 7rem;
+    margin: auto;
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    background-color: blue;
+    color: white;
+    border: navy;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  #send-btn-div input:hover {
+    transform: scale(1.1);
+    background-color: navy;
+  }
+
+  #contact-us-form form #full-name-fieldset input {
+    width: 100%;
+
+  }
+
+  #contact-us-form form #full-contact-fieldset input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,111 @@
+#our-mission {
+    width: 100vw;
+    height: auto;
+    padding-bottom: .6%;
+    /* background-color: antiquewhite; */
+    background-image: url("https://media.istockphoto.com/id/1185404564/photo/im-glad-we-could-settle-on-something.jpg?s=612x612&w=0&k=20&c=n3buDVTBqlI5Pg-x3VaCRsXLk851mdjSLykXevsPLbU=");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+}
+
+#our-mission::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 18, 19, 0.692);
+    z-index: 0;
+}
+
+#our-mission #our-mission-visiondiv {
+    width: 50%;
+    /* background-color: aqua; */
+    position: relative;
+    /* Add position relative to create a new stacking context */
+    z-index: 1;
+    /* Increase the z-index to make it appear above ::before pseudo-element */
+}
+
+#our-mission #our-mission-visiondiv #vision-div-up {
+    width: 70%;
+    height: auto;
+    padding: 2rem 2rem 3rem 2rem;
+    margin-left: 30%;
+    margin-top: 3%;
+    font-size: 1.4rem;
+    background-color: white;
+    padding: 4%;
+    box-sizing: border-box;
+    text-align: justify;
+    position: relative;
+    /* Add position relative to create a new stacking context */
+    z-index: 2;
+    /* Increase the z-index to make it appear above its parent */
+}
+
+#our-mission #our-mission-missiondiv {
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+#our-mission #our-mission-missiondiv #vision-div-down {
+    width: 70%;
+    height: auto;
+    margin-top: 23rem;
+    background-color: white;
+    font-size: 1.4rem;
+    padding: 2rem 2rem 3rem 2rem;
+    box-sizing: border-box;
+    text-align: justify;
+    position: relative;
+    z-index: 2;
+}
+
+#our-mission #our-mission-missiondiv #vision-div-down h5,
+#our-mission #our-mission-visiondiv #vision-div-up h5 {
+    color: blue;
+    font-size: 2rem;
+}
+
+
+
+@media (max-width: 628px) {
+    #our-mission {
+        flex-direction: column;
+        align-items: center;
+        padding: 10%;
+
+    }
+
+    #our-mission #our-mission-visiondiv,
+    #our-mission #our-mission-missiondiv {
+        width: 100%;
+        /* font-size: 3rem; */
+    }
+
+    #our-mission #our-mission-missiondiv #vision-div-down h5,
+    #our-mission #our-mission-visiondiv #vision-div-up h5 {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    #our-mission #our-mission-visiondiv #vision-div-up,
+    #our-mission #our-mission-missiondiv #vision-div-down {
+        width: 90%;
+        height: auto;
+        margin-left: 5rem;
+        margin-top: 3rem;
+        font-size: 2.1rem;
+    }
+}

@@ -1,0 +1,200 @@
+#what-we-are-main-container {
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.7rem;
+    box-sizing: border-box;
+
+}
+
+#what-we-are-main-container #inner-conainer {
+    width: 90%;
+    height: auto;
+    justify-content: space-between;
+    margin: 2% auto;
+    display: flex;
+
+}
+
+#what-we-are-main-container #inner-conainer #first-container {
+    width: 48%;
+    padding: 1%;
+    height: auto;
+    font-size: 1.4rem;
+    text-align: justify;
+
+}
+
+
+#what-we-are-main-container h2,  #what-we-do-main-container h2 {
+    font-size: 2.5rem;
+ 
+}
+
+#what-we-are-main-container #inner-conainer #second-container {
+    width: 48%;
+    padding: 1%;
+    height: 100%;
+ 
+
+
+}
+
+#what-we-are-main-container #inner-conainer #second-container img {
+    width: 100%;
+    height: auto;
+
+
+}
+
+@media (max-width:468px) {
+    #what-we-are-main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #what-we-are-main-container #inner-conainer {
+        width: 90%;
+        height: 82%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    #what-we-are-main-container #inner-conainer #first-container {
+        width: 95%;
+        padding: 1%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 1rem;
+        font-size: 2.4rem;
+
+    }
+
+
+    #what-we-are-main-container h2 , #what-we-do-main-container h2{
+        font-size: 3rem;
+
+    }
+    
+
+    #what-we-are-main-container #inner-conainer #second-container {
+        width: 95%;
+        padding: 1%;
+        
+        height: 100%;
+        margin: auto;
+
+    }
+
+    #what-we-are-main-container #inner-conainer #second-container img {
+        width: 100%;
+        height: auto;
+
+
+    }
+}
+
+
+
+
+/* -----------------------------------------------what we do-------------------------------------------------- */
+
+#our-story-container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: red;
+    overflow-x: hidden;
+    font-size: 1.7rem;
+}
+
+#what-we-do-main-container {
+    width: 100vw;
+    max-height: auto;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* #what-we-do-main-container h2 {
+    text-align: center;
+    font-size: rem;
+} */
+
+#what-we-do-main-container #inner-conainer {
+    width: 90%;
+    height: 100%;
+    justify-content: space-between;
+    margin: 2% auto;
+    font-size: 1.4rem;
+    display: flex;
+    box-sizing: border-box;
+}
+
+#what-we-do-main-container #inner-conainer #first-container {
+    width: 48%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: justify;
+
+}
+
+#what-we-do-main-container #inner-conainer #second-container {
+    width: 48%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+#what-we-do-main-container #inner-conainer #second-container img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:468px) {
+    #what-we-do-main-container #inner-conainer {
+        width: 95%;
+        height: 100%;
+        justify-content: space-between;
+        margin: 2% auto;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    #what-we-do-main-container #inner-conainer #first-container {
+        width: 90%;
+        height: 100%;
+        /* Change height to 100% */
+        box-sizing: border-box;
+        text-align: justify;
+        margin: auto;
+       
+        margin-top: 2rem;
+        font-size: 2.4rem;
+
+    }
+
+    #what-we-do-main-container #inner-conainer #second-container {
+        width: 90%;
+        height: 100%;
+        box-sizing: border-box;
+        margin: auto;
+
+
+    }
+    
+    #what-we-are-main-container h2 {
+        font-size: 4rem;
+
+    }
+    #what-we-do-main-container #inner-conainer #second-container img {
+        width: 100%;
+        height: auto;    }
+
+}

@@ -1,0 +1,88 @@
+#resource-page {
+    width: 99vw;
+    height: 65vh;
+    background-color: #faf7f7;
+    display: flex;
+    margin: auto;
+    /* border-radius: 6px; */
+    border: 1px solid rgb(219, 212, 212);
+    border-left: none;
+    position: fixed;
+    top: 2;
+    z-index: 2;
+}
+
+
+#resource-page div {
+    width: 25%;
+    height: 100%;
+    border-left: 1px solid rgb(233, 228, 228);
+    font-weight: 450;
+}
+
+#resource-page div ul li {
+    list-style: none;
+    height: 5vh;
+    font-weight: 480;
+
+
+}
+
+#resource-page div ul li:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+#resource-page div ul {
+    padding-top: 10%;
+
+
+}
+
+#resource-page #second-div .second-inner-div {
+    width: 96%;
+    height: 95%;
+    margin: auto;
+    margin-top: 3%;
+    /* background-image: url("C:\Users\user\Desktop\Projects\ConscientiousTech\conscientioustech-website\src\Assets\carsouls1img\latest_blog_bg.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    padding-top: 95%;
+    /* padding-left: 50%; */
+    /* text-align: end; */
+    padding-left: 7%;
+    color: white;
+}
+
+#resource-page #third-div .third-inner-div {
+    width: 96%;
+    height: 95%;
+    margin: auto;
+    margin-top: 3%;
+    /* background-image: url("C:\Users\user\Desktop\Projects\ConscientiousTech\conscientioustech-website\src\Assets\carsouls1img\latest_blog_bg.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    padding-top: 95%;
+    /* padding-left: 50%; */
+    /* text-align: end; */
+    padding-left: 7%;
+    color: white;
+}
+
+#resource-page #fourth-div .fourth-inner-div {
+    width: 96%;
+    height: 95%;
+    margin: auto;
+    margin-top: 3%;
+    /* background-image: url("C:\Users\user\Desktop\Projects\ConscientiousTech\conscientioustech-website\src\Assets\carsouls1img\latest_blog_bg.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    padding-top: 90%;
+    /* padding-left: 50%; */
+    /* text-align: end; */
+    color: white;
+    padding-left: 7%;
+}

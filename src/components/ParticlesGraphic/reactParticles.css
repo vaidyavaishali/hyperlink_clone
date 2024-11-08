@@ -1,0 +1,26 @@
+
+@media (max-width:768px) {
+  #tsparticles {
+    height: 450px;
+  }
+}
+
+@media (max-width:468px) {
+  #tsparticles {
+    height: 460px;
+  }
+}
+
+/* tablets and ipad */
+@media (min-width:769px) and (max-width:1023px) {
+  #tsparticles {
+    height: 100vh;
+
+  }
+}
+
+@media (min-width:1024px) {
+  #tsparticles {
+    height: 93vh;
+  }
+}

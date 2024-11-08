@@ -1,0 +1,161 @@
+#tech-stack-we-worked-on-container{
+    width: 100vw;
+    height: auto;
+    padding: 3%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.8rem;
+}
+#tech-stack-we-worked-on-container #tech-stack-we-worked-on-heading-container{
+    width: 100%;
+    height: 23%;
+    padding-bottom: .8%;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+#tech-name-containter{
+    width: 50%;
+    margin: auto;
+   margin-top: 2%;
+}
+#tech-name-containter span{
+     margin-left: 1.5%;
+     padding: 0 2%;
+     border-bottom: 2px solid rgb(19, 19, 63);
+     padding-bottom: 1.6%;
+     width: 70%;
+
+}
+#tech-name-containter span:hover{
+ border: 1px solid #ccc;
+ cursor: pointer;
+
+}
+#tech-stack-logo-container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    padding: 4%;
+    box-sizing: border-box;
+    gap: 20px;
+    justify-content:flex-start;
+    margin: auto;
+    font-size: 1.5rem;
+}
+#tech-stack-all-div{
+    width: 15%;
+    height: 20vh;
+    text-align: center;
+    margin-top: 0;
+    
+}
+#tech-stack-all-div img{
+    width: 50%;
+    height: 60%;
+    padding: 0;
+    margin-bottom: 10%;
+    line-height: 70px;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    #tech-name-containter span {
+        width: 100%; /* Span takes full width on small screens */
+    }
+
+    #tech-stack-logo-container {
+        justify-content: center; /* Center the logos on small screens */
+    }
+
+    #tech-stack-all-div {
+        width: 45%;
+         /* Adjust as needed for small screens */
+    }
+    #tech-stack-we-worked-on-container {
+        width: 100vw;
+        height: auto;
+        padding: 3%;
+        box-sizing: border-box;
+        text-align: center;
+       
+    }
+    
+    #tech-stack-we-worked-on-container #tech-stack-we-worked-on-heading-container {
+        width: 100%;
+        height: 23%;
+        padding-bottom: .8%;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        font-size: 2.7rem;
+    }
+    
+    #tech-stack-we-worked-on-container #tech-stack-we-worked-on-heading-container h1{
+        font-size: 3.7rem;
+
+    }
+
+    #tech-name-containter {
+        width: 100%;
+        margin: auto;
+        margin-top: 2%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    #tech-name-containter span {
+        margin: 1%;
+        padding: 0 2%;
+        border-bottom: 2px solid rgb(19, 19, 63);
+        padding-bottom: 1.6%;
+        width: 45%; /* Adjust as needed for different screen sizes */
+    }
+    
+    #tech-name-containter span:hover {
+        border: 1px solid #ccc;
+        cursor: pointer;
+    }
+    
+    #tech-stack-logo-container {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2%;
+    font-size: 4rem;
+        padding: 2%;
+        box-sizing: border-box;
+        gap: 20px;
+        justify-content: center;
+        margin: auto;
+       
+    }
+    #tech-stack-logo-container #tech-stack-all-div img{
+        width: 90%;
+    }
+    #tech-stack-logo-container #tech-stack-all-div {
+        padding-top: 3rem;
+    }
+    #tech-stack-logo-container #tech-stack-all-div h6{
+        font-size: 3rem;
+    }
+
+    #tech-stack-all-div {
+        width: 30%; /* Adjust as needed for different screen sizes */
+        height: auto;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 2%;
+    }
+    
+    #tech-stack-all-div img {
+        width: 50%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+}

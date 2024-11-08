@@ -1,0 +1,415 @@
+#process-of-interview {
+    width: 98vw;
+    height: 73vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    color: white;
+    margin: auto;
+    font-size: 1.5rem;
+
+}
+
+#process-of-interview-heading {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(196, 25, 76);
+    color: white;
+}
+
+#process-of-interview-heading h1 {
+    margin: 30% 0 0 10%;
+    font-family: Arial;
+}
+
+#process-of-interview-heading p {
+    margin: 10% auto 0 auto;
+    width: 80%;
+    text-align: justify;
+    font-size: 105%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#process-of-interview-HR-interview {
+    width: 25%;
+    height: 100%;
+    position: relative;
+}
+
+#process-of-interview-personal-interview {
+    width: 25%;
+    height: 100%;
+    position: relative;
+}
+
+#process-of-interview-Practical-round {
+    width: 25%;
+    height: 100%;
+    position: relative;
+}
+
+#process-of-interview-HR-interview #process-of-interview-HR-interview-first-div {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(177, 77, 112);
+    margin-top: 80.3%;
+    position: absolute;
+    bottom: 0;
+    transition: display 0.5s ease 1s;
+}
+
+.all-css h3 {
+    font-size: 2.6rem;
+}
+
+#process-of-interview-Practical-round:hover #process-of-interview-HR-interview-first-div {
+    display: none;
+    transition: display 0.5s ease 1s;
+}
+
+#process-of-interview-Practical-round:hover #process-of-interview-HR-interview-second-div {
+    display: none;
+}
+
+#process-of-interview-HR-interview:hover #process-of-interview-HR-interview-second-div {
+
+    background-color: rgb(158, 62, 118);
+    height: 70.7%;
+    margin-top: 41.1%;
+    margin-bottom: 0;
+    display: block;
+    cursor: pointer;
+}
+
+.all-second {
+    padding-top: 10%;
+    padding-left: 1%;
+    transition: all 1s ease 0.5s;
+}
+
+.all-second p {
+    text-align: justify;
+}
+
+.all-css p {
+    width: 90%;
+    margin: auto;
+}
+
+
+.all-css h3 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+
+.cursor {
+    cursor: pointer;
+}
+
+#process-of-interview-HR-interview:hover #process-of-interview-HR-interview-first-div {
+    display: none;
+    transition: display 0.5s ease 1s;
+}
+
+
+
+/* ----------------------------------------- personal round-----------------------           */
+
+#process-of-interview-personal-interview #process-of-interview-personal-interview-first-div {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(154, 184, 169);
+    margin-top: 80.3%;
+    position: absolute;
+    bottom: 0;
+    opacity: 1;
+    max-height: 100%;
+}
+
+#process-of-interview-personal-interview:hover #process-of-interview-personal-interview-first-div {
+    display: none;
+}
+
+#process-of-interview-personal-interview:hover #process-of-interview-personal-interview-second-div {
+    display: none;
+}
+
+
+#process-of-interview-personal-interview:hover #process-of-interview-personal-interview-second-div {
+    background-color: rgb(31, 3, 14);
+
+    width: 100%;
+    height: 70.7%;
+    margin-top: 41.1%;
+    margin-bottom: 0;
+    display: block;
+    cursor: pointer;
+    transition: all 1s ease 0.5s;
+}
+
+
+
+
+
+
+/* ----------------------------------------------------practical round------------------------------------ */
+
+#process-of-interview-Practical-round #process-of-interview-Practical-round-first-div {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(27, 209, 118);
+    margin-top: 80.3%;
+    position: absolute;
+    bottom: 0;
+}
+
+#process-of-interview-Practical-round:hover #process-of-interview-Practical-round-first-div {
+    transition: all 1s ease 0.5s;
+    display: none;
+}
+
+#process-of-interview-Practical-round:hover #process-of-interview-Practical-round-second-div {
+    display: none;
+
+}
+
+
+#process-of-interview-Practical-round:hover #process-of-interview-Practical-round-second-div,
+#process-of-interview-personal-interview:hover #process-of-interview-personal-interview-second-div {
+    width: 100%;
+
+    height: 70.7%;
+    margin-top: 41.1%;
+    margin-bottom: 0;
+    display: block;
+    cursor: pointer;
+    transition: all 1s ease 0.5s;
+}
+
+#process-of-interview-Practical-round:hover #process-of-interview-Practical-round-second-div {
+    background-color: rgb(99, 26, 194);
+}
+
+#process-of-interview-personal-interview:hover #process-of-interview-personal-interview-second-div {
+    background-color: rgb(45, 18, 46);
+}
+
+
+
+.all-css .sr-no {
+    font-size: 400%;
+    font-weight: 800;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.all-css .int-round-heading {
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 767px) {
+    #process-of-interview {
+        width: 98vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        color: white;
+        margin: auto;
+    }
+
+    #process-of-interview-heading {
+        width: 100%;
+        height: 100%;
+        font-size: 2rem;
+        padding-bottom: 1rem;
+        padding: 3rem;
+        box-sizing: border-box;
+        background-color: rgb(196, 25, 76);
+        color: white;
+    }
+
+    #process-of-interview-heading h1 {
+        margin: 0;
+        font-family: Arial;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+
+    #process-of-interview-HR-interview {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin: 0;
+    }
+
+    #process-of-interview-personal-interview {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    #process-of-interview-Practical-round {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    #process-of-interview-HR-interview #process-of-interview-HR-interview-first-div {
+        display: none;
+        margin: 0;
+    }
+
+    #process-of-interview-personal-interview #process-of-interview-personal-interview-first-div {
+        display: none;
+        margin: 0;
+    }
+
+    #process-of-interview-Practical-round #process-of-interview-Practical-round-first-div {
+        display: none;
+    }
+
+    #process-of-interview-Practical-round #process-of-interview-Practical-round-second-div {
+        width: 100%;
+        background-color: #deecab;
+        height: auto;
+        margin-bottom: 0;
+        color: #000;
+        margin: 0;
+        display: block;
+        padding-bottom: 5%;
+        cursor: pointer;
+        transition: none;
+        font-size: 2.5rem;
+        text-align: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+
+    #process-of-interview-HR-interview #process-of-interview-HR-interview-second-div {
+        width: 100%;
+        background-color: #e5b9b9;
+        height: auto;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin-bottom: 0;
+        color: #000;
+        margin: 0;
+        padding-bottom: 5%;
+        display: block;
+        cursor: pointer;
+        transition: none;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    #process-of-interview-personal-interview #process-of-interview-personal-interview-second-div {
+        width: 100%;
+        background-color: #afb4e4;
+        height: auto;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin-bottom: 0;
+        color: #000;
+        margin: 0;
+        padding-bottom: 5%;
+        display: block;
+        cursor: pointer;
+        transition: none;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    #process-of-interview-personal-interview #process-of-interview-personal-interview-second-div h3,
+    #process-of-interview-HR-interview #process-of-interview-HR-interview-second-div h3,
+    #process-of-interview-Practical-round #process-of-interview-Practical-round-second-div h3 {
+        font-size: 4rem;
+        margin-top: 0;
+        margin: 0;
+        text-align: center;
+
+    }
+
+    #process-of-interview-Practical-round #process-of-interview-Practical-round-second-div p,
+    #process-of-interview-HR-interview #process-of-interview-HR-interview-second-div p,
+    #process-of-interview-personal-interview #process-of-interview-personal-interview-second-div p,
+    #process-of-interview-heading p {
+        margin-top: 1rem;
+        font-size: 2.8rem;
+        text-align: center;
+    }
+
+    #process-of-interview-Practical-round:hover #process-of-interview-Practical-round-second-div,
+    #process-of-interview-personal-interview:hover #process-of-interview-personal-interview-second-div,
+    #process-of-interview-HR-interview:hover #process-of-interview-HR-interview-second-div {
+        margin-top: 0;
+        transition: none;
+        background-color: black;
+        color: white;
+    }
+
+}
+
+@media only screen and (min-width:557px) and (max-width: 768px){
+    #process-of-interview {
+        width: 98vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: row;
+        margin-top: 5rem;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        margin-bottom: 3%;
+        color: white;
+        margin: auto;
+        font-size: 1.5rem;
+
+    }
+
+    #process-of-interview-personal-interview:hover #process-of-interview-personal-interview-second-div,
+    #process-of-interview-HR-interview:hover #process-of-interview-HR-interview-second-div,
+    #process-of-interview-Practical-round:hover #process-of-interview-Practical-round-second-div {
+        width: 100%;
+        height: 70.7%;
+        margin-top: 48.1%;
+        margin-bottom: 0;
+        display: block;
+        cursor: pointer;
+        transition: all 1s ease 0.5s;
+    }   
+}
+
+@media only screen and (min-width:769px) and (max-width: 991px) {
+    #process-of-interview {
+        width: 98vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: row;
+        margin-top: 5rem;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        margin-bottom: 3%;
+        color: white;
+        margin: auto;
+        font-size: 1.5rem;
+
+    }
+
+    #process-of-interview-personal-interview:hover #process-of-interview-personal-interview-second-div,
+    #process-of-interview-HR-interview:hover #process-of-interview-HR-interview-second-div,
+    #process-of-interview-Practical-round:hover #process-of-interview-Practical-round-second-div {
+        width: 100%;
+        height: 70.7%;
+        margin-top: 51.1%;
+        margin-bottom: 0;
+        display: block;
+        cursor: pointer;
+        transition: all 1s ease 0.5s;
+    }
+}

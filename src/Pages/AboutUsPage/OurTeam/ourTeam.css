@@ -1,0 +1,256 @@
+#our-team {
+  width: 100vw;
+  height: auto;
+  background-color: bisque;
+  padding-top: 3%;
+  padding-bottom: 3rem;
+  background-image: url("https://images.unsplash.com/photo-1566041510632-30055e21a9cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdoaXRlJTIwdGV4dHVyZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+  box-sizing: border-box;
+  /* margin-top: 2%; */
+
+}
+
+#our-team h2 {
+  margin-bottom: 2%;
+  font-size: 5rem;
+}
+
+#our-team .our-team-inner-div {
+  width: 30%;
+  height: auto;
+  position: relative;
+  height: 67vh;
+  padding-top: 20%;
+  font-size: 2rem;
+  box-sizing: border-box;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.img-div {
+  width: 25%;
+  height: 15vh;
+  /* background-color: rgb(153, 90, 14); */
+  border: 5px solid white;
+  position: absolute;
+  left: 32%;
+  top: 7%
+}
+
+
+.img-div img {
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(153, 90, 14); */
+}
+
+#our-team .our-team-inner-div .description-container {
+  width: 90%;
+  background-color: rgb(237, 237, 241);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  height: 45vh;
+  padding-top: 10%;
+  padding-left: 10%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.description-container:hover .img-div,
+.description-container:hover .img-div img {
+  border-radius: 50%;
+  border: 2px solid rgb(69, 202, 135);
+}
+
+#our-team .our-team-inner-div .description-container h5 {
+  text-align: center;
+  margin-top: 4%;
+  margin-right: 15%;
+}
+
+#our-team .our-team-inner-div .description-container .designation {
+  text-align: center;
+  margin-top: 0%;
+  margin-right: 15%;
+
+}
+
+#our-team .our-team-inner-div .description-container .role {
+  width: 91%;
+  text-align: center;
+  margin-top: 7%;
+
+
+}
+
+#emp-name {
+  font-size: 2rem;
+}
+
+.role {
+  font-size: 1.7rem;
+}
+
+@media (min-width:992px) {
+  #our-team h2 {
+    margin-bottom: 2%;
+    font-size: 3rem;
+  }
+
+  #our-team .our-team-inner-div {
+    width: 30%;
+    position: relative;
+    height: auto;
+    padding-top: 3rem;
+    font-size: 2rem;
+    /* box-sizing: border-box; */
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .img-div {
+    width: 25%;
+    height: auto;
+    /* background-color: rgb(153, 90, 14); */
+    border: 5px solid white;
+    position: absolute;
+    left: 32%;
+    top: 0%
+  }
+
+
+  .img-div img {
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(153, 90, 14); */
+  }
+
+  #our-team .our-team-inner-div .description-container {
+    width: 90%;
+    background-color: rgb(237, 237, 241);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    height: auto;
+    padding: 3rem;
+    padding-left: 10%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+  }
+
+  #our-team .our-team-inner-div .description-container #desc {
+    margin-top: 25%;
+    font-size: 1.7rem;
+  }
+
+  .description-container:hover .img-div,
+  .description-container:hover .img-div img {
+    border-radius: 50%;
+    border: 2px solid rgb(69, 202, 135);
+  }
+
+  #our-team .our-team-inner-div .description-container h5 {
+    text-align: center;
+    margin-top: 10%;
+    margin-right: 15%;
+  }
+
+  #our-team .our-team-inner-div .description-container .designation {
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 15%;
+
+  }
+
+  #our-team .our-team-inner-div .description-container .role {
+    width: 91%;
+    text-align: center;
+    margin-top: 7%;
+
+
+  }
+
+  #emp-name {
+    font-size: 2rem;
+  }
+
+  .role {
+    font-size: 1.3rem;
+  }
+
+
+}
+
+@media(max-width:991px) and (min-width:221px) {
+  #our-team .our-team-inner-div {
+    position: static;
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    padding-top: 0%;
+  }
+
+  #our-team .our-team-inner-div .description-container {
+    width: 90%;
+    background-color: rgb(237, 237, 241);
+    height: 30vh;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 3rem;
+  }
+
+  #our-team .our-team-inner-div .description-container h5 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  .img-div {
+    width: 80px;
+    height: 80px;
+    position: static;
+    margin: 0;
+    border: 5px solid white;
+
+  }
+
+  #desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .designation {
+    font-size: 2rem;
+  }
+
+  .our-team-inner-div {
+    width: 37%;
+    height: auto;
+    /* font-size: 3rem; */
+  }
+
+  #emp-name {
+    font-size: 3.4rem;
+    font-weight: 600;
+    margin-top: 3rem;
+  }
+
+
+  #our-team .our-team-inner-div .description-container .designation {
+    margin: 0;
+
+  }
+
+  #our-team .our-team-inner-div .description-container .role {
+    margin: 0;
+    font-size: 2rem;
+
+  }
+
+}

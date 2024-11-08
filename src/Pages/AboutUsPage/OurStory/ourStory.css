@@ -1,0 +1,97 @@
+#our-story-container {
+    width: 100%;
+    height: 70vh;
+    margin: auto;
+    background-color: red;
+    overflow-x: hidden;
+    padding-bottom: 4rem;
+}
+
+#our-story-main-container {
+    width: 100vw;
+    max-height: auto;
+    background-image: url("https://images.unsplash.com/photo-1566041510632-30055e21a9cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdoaXRlJTIwdGV4dHVyZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+    /* background-color: rgb(113, 104, 126); */
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* Hide any content that overflows the container */
+}
+
+#our-story-main-container #inner-conainer {
+    width: 90%;
+    height: 100%;
+    /* Change height to 100% */
+    justify-content: space-between;
+    /* background-color: blue; */
+    margin: 2% auto;
+    display: flex;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+}
+
+#our-story-main-container #inner-conainer #first-container {
+    width: 48%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: justify;
+
+}
+
+#our-story-main-container #inner-conainer #second-container {
+    width: 48%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+
+
+#our-story-main-container #inner-conainer #second-container img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:468px) {
+    #our-story-main-container #inner-conainer {
+        width: 90%;
+        height: auto;
+        justify-content: space-between;
+        margin: 2% auto;
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+
+    #our-story-main-container #inner-conainer #first-container {
+        width: 95%;
+        height: 100%;
+        box-sizing: border-box;
+        text-align: justify;
+        margin: auto;
+        font-size: 2.1rem;
+    }
+
+    #our-story-main-container #inner-conainer #first-container h1 {
+        font-size: 4rem;
+
+    }
+
+    #our-story-main-container #inner-conainer #second-container {
+        width: 95%;
+        height: auto;
+        box-sizing: border-box;
+        margin: auto;
+
+    }
+
+    #our-story-main-container #inner-conainer #second-container img {
+        height: auto;
+    }
+
+
+}

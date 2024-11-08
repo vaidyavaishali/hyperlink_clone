@@ -1,0 +1,73 @@
+#located-at {
+   width: 100%;
+   height: auto;
+   margin-top: 3%;
+   box-sizing: border-box;
+   font-size: 2rem;
+   /* background: linear-gradient(to right, #FF6B6B, #FFC7A0); */
+   text-align: center;
+   padding: 2rem 0;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   background-color: #fff;
+   color: rgb(0, 0, 0);
+}
+
+#located-at h1 {
+   font-size: 3rem;
+   color: #fff; /* Text color */
+}
+
+#located-at-inner-div {
+   display: flex;
+   justify-content: center;
+}
+
+#address-div, #email-div {
+   width: 45%;
+   height: auto;
+   background-color: #fff; /* Background color */
+   text-align: center;
+   padding: 1.5rem;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   margin: 2rem;
+   align-items: center;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   transition: transform 0.2s;
+}
+
+#address-div:hover, #email-div:hover {
+   transform: scale(1.05); /* Hover effect - slightly scale on hover */
+}
+
+#address-div h3, #email-div h3 {
+   font-size: 2rem;
+   color: #333; /* Text color */
+}
+
+#email-div p a {
+   font-size: 1.5rem;
+   text-align: center;
+   color: #007BFF; /* Link color */
+   text-decoration: none;
+}
+
+#email-div p a:hover {
+   color: #0056b3; /* Hover color for the link */
+}
+
+@media screen and (max-width: 417px) {
+   #located-at-inner-div {
+       display: flex;
+       flex-direction: column;
+   }
+   #address-div, #email-div {
+       width: 90%;
+       font-size: 1rem;
+       margin: 1rem auto;
+   }
+}

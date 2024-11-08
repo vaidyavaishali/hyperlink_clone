@@ -1,0 +1,58 @@
+/* hiredeveloper.css */
+
+.hire-dropdown {
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 10px 20rem 0;
+  z-index: 999;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  opacity: 0;
+  transform: translateY(-10px);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position: fixed;
+  top: 9%;
+ 
+}
+
+.developers {
+  width: 22%;
+  margin: 10px;
+  text-align: left;
+  padding: 10px;
+  background-color: #fff;
+  /* Change this to your preferred background color */
+  font-size: 13px;
+  color: #252525;
+  /* Change this to your preferred text color */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.developers:hover {
+  background-color: rgba(177, 227, 240, 0.466);
+  color: blue;
+  padding-left: 3rem;
+  transform: scale((1.1));
+}
+
+/* Show the dropdown when setShow_hiredeveloper_dropdown is true */
+.hire-dropdown.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Optional: Make the font size smaller on smaller screens */
+@media (max-width: 768px) {
+  .developers {
+    width: 100%;
+    font-size: 16px;
+  }
+}

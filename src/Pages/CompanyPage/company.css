@@ -1,0 +1,152 @@
+#company-page {
+    width: 99vw;
+    height: 65vh;
+    background-color: #faf7f7;
+    display: flex;
+    margin: auto;
+    border: 1px solid rgb(219, 212, 212);
+    border-left: none;
+    position: fixed;
+    top: 2;
+    z-index: 2;
+    scroll-behavior: smooth;
+    font-size: 1.6rem;
+}
+
+#company-page div {
+    width: 25%;
+    height: 100%;
+    border-left: 1px solid rgb(233, 228, 228);
+    font-weight: 500;
+}
+
+#company-page div ul li {
+    list-style: none;
+
+}
+
+.text-color {
+    color: black;
+    text-decoration: none;
+}
+
+#company-page div ul li:hover {
+    color: blue;
+
+}
+
+#company-page div ul,
+.contact ul {
+    margin-top: 8%;
+}
+
+.contact ul li {
+    margin-top: 4%;
+
+}
+
+.contact ul li a {
+    text-decoration: none;
+
+}
+
+.contact #social-icons-container {
+    width: 95%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    margin-top: 50%;
+    border: none;
+    justify-content: space-around;
+    margin-left: 8%;
+}
+
+.contact #social-icons-container div {
+    border: none;
+}
+
+.contact #social-icons-container div .fb-icon,
+.contact #social-icons-container div .tweeter-icon,
+.contact #social-icons-container div .linkedin-icon {
+    width: 40%;
+    border-radius: 50%;
+    height: 10%;
+    margin-top: 10%;
+}
+
+.contact #social-icons-container div .fb-icon {
+    margin-right: 10%;
+}
+
+.contact #social-icons-container div .insta-icon {
+    width: 60%;
+    border-radius: 50%;
+    height: 10%;
+}
+
+#company-page .third-div .third-inner-div {
+    width: 96%;
+    height: 95%;
+    margin: auto;
+    margin-top: 3%;
+    background-image: url("/src/Assets/carsouls1img/Career-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    padding-top: 94%;
+    padding-left: 7%;
+}
+
+#company-page .fourth-div .fourth-inner-div {
+    width: 96%;
+    height: 95%;
+    margin: auto;
+    margin-top: 3%;
+    background-image: url("/src/Assets/carsouls1img/collaboration-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 8px;
+    padding-top: 90%;
+    color: white;
+    padding-left: 7%;
+}
+
+@media only screen and (max-width:960px) {
+    #company-page {
+        width: 50rem;
+        height: auto;
+        background-color: #faf7f7;
+        display: flex;
+        /* background-color: red; */
+        border: .1rem solid rgb(219, 212, 212);
+        border-left: none;
+        position: fixed;
+        flex-direction: column;
+        top: 2;
+        right: 6.2%;
+        z-index: 2;
+        font-size: 2rem;
+        box-sizing: border-box;
+        border-radius: 0 0 0 1rem;
+    }
+    #company-page .first-div{
+        width: 96%;
+        height: auto;
+        padding-left: 3rem;
+        /* background-color: red; */
+        box-sizing: border-box;
+        /* padding: 0; */
+        border-radius: 0 0 0 1rem;
+    }
+    #company-page .first-div ul li{
+        height: 10vh;
+    }
+    #company-page .first-div ul li:hover{
+        background-color: #faf7f7;
+        color: blue;
+    }
+    #company-page .second-div, #company-page .third-div, #company-page .fourth-div{
+       display: none;
+    }
+    
+}
